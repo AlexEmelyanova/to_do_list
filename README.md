@@ -8,7 +8,7 @@
 
 •   Фреймворк: FastAP
 •   База данных: PostgreSQL  
-•   ORM: SQLAlchemy (Async)  
+•   ORM: SQLAlchemy (Async)    
 •   Миграции: Alembic  
 •   Контейнеризация: Docker & Docker Compose  
 
