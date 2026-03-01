@@ -6,7 +6,7 @@
 
  🛠 Технологический стек
 
-•   Фреймворк: FastAP
+•   Фреймворк: FastAP  
 •   База данных: PostgreSQL  
 •   ORM: SQLAlchemy (Async)    
 •   Миграции: Alembic  
