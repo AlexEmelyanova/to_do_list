@@ -17,16 +17,20 @@
  🚀 Быстрый старт
 
  1. Клонирование репозитория
-```[git clone https://github.com/USERNAME/REPO.gitcd REPO](https://github.com/AlexEmelyanova/to_do_list.git)```
+    
+    [https://github.com/AlexEmelyanova/to_do_list](https://github.com/AlexEmelyanova/to_do_list)
+    
 
 2. Настройка окружения (.env)
 Создайте файл конфигурации из примера и отредактируйте его:
+
 ```cp .env.example .env.docker```
 
 > 💡 Совет: Обязательно замените SECRET_KEY и пароли базы данных в .env перед запуском.
 
- 3. Запуск в Docker
+3. Запуск в Docker
 Все сервисы (API + База данных) запускаются одной командой:
+
 ```docker compose up --build```
 
 Проект будет доступен по адресу: http://localhost:8000
