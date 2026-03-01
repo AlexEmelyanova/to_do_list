@@ -6,8 +6,7 @@ from logging.config import fileConfig
 from sqlalchemy import create_engine, pool
 from alembic import context
 
-from app.core.config import DATABASE_URL_ALEMBIC
-from app.core.database import Model
+from app.core.database import Model, DATABASE_URL_ALEMBIC
 from app.models import *
 
 target_metadata = Model.metadata
