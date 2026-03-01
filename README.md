@@ -39,13 +39,14 @@
 
  🏗 Управление базой данных (Alembic)
 
-Если вы внесли изменения в модели данных, примените миграции следующей командой:
+После первого запуска контейнеров необходимо применить миграции:
 
 ```docker compose exec app alembic upgrade head```
 
-Для создания новой миграции после изменения моделей:
+Если вы изменили модели SQLAlchemy:
 
-```docker compose exec app alembic revision --autogenerate -m "Ваше описание"```
+```docker compose exec app alembic revision --autogenerate -m "Ваше описание"```  
+```docker compose exec app alembic upgrade head```
 
 ---
 
